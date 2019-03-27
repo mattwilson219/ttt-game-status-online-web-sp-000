@@ -35,5 +35,3 @@ end
 def full?(board)
   board.all? {|filler| filler ="X" || filler = "O"}
 end
-
-  

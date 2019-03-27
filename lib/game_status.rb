@@ -33,5 +33,5 @@ def won?(board)
 end
 
 def full?(board)
-   board.all? {|filler| filler == "X" || filler == "O"}   
+   board.all? {|filler| filler == "X" || filler == "O"}
 end

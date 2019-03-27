@@ -32,7 +32,7 @@ def won?(board)
   false
 end
 
-def full?
+def full?(board)
   board.all? {|filler| filler ="X" || filler = "O"}
 end
 

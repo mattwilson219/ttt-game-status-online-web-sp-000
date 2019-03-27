@@ -44,7 +44,7 @@ def over?(board)
   (won?(board) || (full?(board)) || (draw?(board)))
 end
 
-def winner?(board)
+def winner(board)
   if winner = won?(board)
     board[winner.first]
   else
